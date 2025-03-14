@@ -1,0 +1,134 @@
+<!--
+Facultad de Arquitectura
+Colegio de Diseño Gráfico
+Diseño de Interfaces de Usuario
+Guzman Rivera Natalia 
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formulario</title>
+        <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+        <style type="text/css">
+            footer{
+                text-align: center; 
+            }
+            footer a{
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>FORMULARIOS</h1>
+        </header>
+        <nav>
+            <ul>
+                <a href="../index.html" target="_blank"><img class="img_icono" src="../Imagenes/hogar.png" width="10px" type="imagen/png"></a>
+                <li><a href="../html/mi_primera_pagina.html">Formatos</a></li>
+                <li><a href="../html/listas%20en%20html.html">Listas</a></li>
+                <li><a href="../html/08Guzman%20Rivera%20Natalia_Enlaces.html">Enlaces</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/Tablas.html">Tablas</a></li>
+                <li><a href="../html/audio.html">Aduios</a></li>
+                <li><a href="../html/video.html">Videos</a></li>
+                <li><a href="../html/formulario.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Formulario: Sing in</h2>
+                <p>Donec mattis tellus vel sem interdum, non rhoncus diam maximus. Sed varius tellus lectus, nec sollicitudin eros auctor quis. Pellentesque congue sodales enim non congue. Pellentesque fermentum ipsum vitae mi ultricies, at tristique mi tempus. Morbi sit amet tempor arcu. Mauris vestibulum purus ut enim mollis venenatis. Donec luctus fermentum dolor, eu auctor orci rutrum at. In laoreet lectus vel ipsum sollicitudin malesuada. In a sapien ut ante tincidunt tincidunt eget nec elit. Phasellus faucibus tincidunt dui sed mollis. Praesent eget consequat eros, quis elementum massa. Proin et sagittis nibh, nec consequat nibh. Aliquam sagittis dui at tellus bibendum, at luctus nisl interdum. Donec fringilla elit vel velit maximus bibendum. Proin vehicula pulvinar nunc, ac iaculis turpis. In at pellentesque nibh.</p>
+                <form action="" method="get">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" value="">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" value="">
+                <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section>
+                <h2>Formulario: contact</h2>
+                <p>Donec mattis tellus vel sem interdum, non rhoncus diam maximus. Sed varius tellus lectus, nec sollicitudin eros auctor quis. Pellentesque congue sodales enim non congue. Pellentesque fermentum ipsum vitae mi ultricies, at tristique mi tempus. Morbi sit amet tempor arcu. Mauris vestibulum purus ut enim mollis venenatis. Donec luctus fermentum dolor, eu auctor orci rutrum at. In laoreet lectus vel ipsum sollicitudin malesuada. In a sapien ut ante tincidunt tincidunt eget nec elit. Phasellus faucibus tincidunt dui sed mollis. Praesent eget consequat eros, quis elementum massa. Proin et sagittis nibh, nec consequat nibh. Aliquam sagittis dui at tellus bibendum, at luctus nisl interdum. Donec fringilla elit vel velit maximus bibendum. Proin vehicula pulvinar nunc, ac iaculis turpis. In at pellentesque nibh.</p>
+                <form action="" method="get">
+                    <label for="nombre-1">Nombre:</label>
+                    <input type="text" id="nombre-1" name="nombre-1" value="">
+                    <label for="correo">Email:</label>
+                    <input type="email" id="correo" name="correo" value="">
+                    <label for="comentario">Comentario:</label>
+                    <textarea name="comentario" rows="10" cols="100">Escribe tu comentario...</textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section>
+                <h2>Formulario: select</h2>
+                <p>Donec mattis tellus vel sem interdum, non rhoncus diam maximus. Sed varius tellus lectus, nec sollicitudin eros auctor quis. Pellentesque congue sodales enim non congue. Pellentesque fermentum ipsum vitae mi ultricies, at tristique mi tempus. Morbi sit amet tempor arcu. Mauris vestibulum purus ut enim mollis venenatis. Donec luctus fermentum dolor, eu auctor orci rutrum at. In laoreet lectus vel ipsum sollicitudin malesuada. In a sapien ut ante tincidunt tincidunt eget nec elit. Phasellus faucibus tincidunt dui sed mollis. Praesent eget consequat eros, quis elementum massa. Proin et sagittis nibh, nec consequat nibh. Aliquam sagittis dui at tellus bibendum, at luctus nisl interdum. Donec fringilla elit vel velit maximus bibendum. Proin vehicula pulvinar nunc, ac iaculis turpis. In at pellentesque nibh.</p>
+                <form action="" method="get">
+                    <label for="nombre-2">Nombre:</label>
+                    <input type="text" id="nombre-2" name="nombre-2" value="">
+                    <label for="genero">Genero:</label>
+                    <br><br>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label>
+                    <br><br>
+                    <label for="pais">¿De que pais nos visitas?</label>
+                    <select id="pais" name="pais">
+                        <option value="argentina">Argentina</option> <option value="colombia">Colombia</option>
+                        <option value="ecuador">Ecuador</option>
+                        <option value="españa">España</option>
+                        <option value="estados unidos">Estados Unidos</option>
+                        <option value="francia">Francia</option>
+                        <option value="italia">Italia</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="paraguay">Paraguay</option>
+                    </select>
+                    <br><br>
+                    <label for="turismo">Razon por lo que visitas nuestro país</label>
+                    <br><br>
+                    <input type="checkbox" id="turismo-1" name="turismo-1" value="cultura">
+                    <label for="turismo-1">Cultura</label>
+                    <input type="checkbox" id="turismo-2" name="turismo-2" value="gastronomia">
+                    <label for="turismo-2">Gastronomia</label>
+                    <input type="checkbox" id="turismo-3" name="turismo-3" value="Ecoturismo">
+                    <label for="turismo-3">Ecoturismo</label>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section>
+                <h2>Formulario</h2>
+                <p>Donec mattis tellus vel sem interdum, non rhoncus diam maximus. Sed varius tellus lectus, nec sollicitudin eros auctor quis. Pellentesque congue sodales enim non congue. Pellentesque fermentum ipsum vitae mi ultricies, at tristique mi tempus. Morbi sit amet tempor arcu. Mauris vestibulum purus ut enim mollis venenatis. Donec luctus fermentum dolor, eu auctor orci rutrum at. In laoreet lectus vel ipsum sollicitudin malesuada. In a sapien ut ante tincidunt tincidunt eget nec elit. Phasellus faucibus tincidunt dui sed mollis. Praesent eget consequat eros, quis elementum massa. Proin et sagittis nibh, nec consequat nibh. Aliquam sagittis dui at tellus bibendum, at luctus nisl interdum. Donec fringilla elit vel velit maximus bibendum. Proin vehicula pulvinar nunc, ac iaculis turpis. In at pellentesque nibh.</p>
+                <form action="" method="get">
+                  <fieldset>
+                    <legend for="musica">¿Cual es tu banda de musica favorita?</legend>
+                    <br><br>
+                    <label for="name-band">Nombre de la banda</label><br>
+                    <input type="text" id="name-band" name="name-band" value=""><br>
+                    <label for="g-music">Genero de musica</label><br>
+                    <input type="text" id="g-music" name="g-music" value=""><br><br>
+                    <label for="integrantes">Numero de integrantes</label><br>
+                    <input type="text" id="integrantes" name="integrantes" value=""><br>
+                    <label for="c-fav">¿Cual es tu cancion favorita?</label><br>
+                    <input type="text" id="c-fav" name="c-fav" value=""><br><br>
+                    <label for="favcolor">Selecciona el color del album que mas te gusto:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="">
+                    <label for="f-disc">Fecha de tu disco favorito:</label>
+                    <input type="date" id="f-disc" name="f-disc">
+                    <input type="submit" value="Enviar">
+                    <button type="button" onclick="alert('Solo para amantes de la musica!')">Click Me!</button>
+                  </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Natalia Guzman Rivera</h6>
+            <br>
+            <a href="https://www.instagram.com/naguri_14/" target="_blank"><img class="img_icono" src="../Imagenes/instagram.png" alt="instagram" type="imagen/png"></a>
+            <a href="https://www.facebook.com/natalia.guzmanrivera.3" target="_blank"><img class="img_icono" src="../Imagenes/facebook.png" alt="facebook" type="imagen/png"></a>
+            <a href="https://www.youtube.com/@nataliaguzman3481" target="_blank"><img class="img_icono" src="../Imagenes/youtube.png" alt="youtube" type="imagen/png"></a>
+        </footer>
+    </body>
+</html>

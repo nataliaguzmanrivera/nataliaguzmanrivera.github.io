@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, nav, main,footer{
+    background-color: #154c79;
+    color:#063970;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;  
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    color:#def4f3;
+    font-family: "Lemon", serif;
+    letter-spacing:2px;
+}
+nav{
+    background-color: #eab676;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    background-color: #76b5c5;
+    width:15%;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    /*margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;*/
+    margin: 5px;
+}
+nav ul a:link,nav ul li a:visited{
+    text-decoration: none;
+    color: #dcfaff;
+}
+nav ul li:hover{
+    background-color: #eab676;
+    
+}
+section{
+    background-color: #e28743;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+    overflow-x: auto;
+}
+h2{
+    margin-bottom: 30px;
+    font-family: "Lemon", serif;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+footer{
+    text-align: center;
+    height: 40%;
+    background-color: #1e81b0;
+    font-size: 18px
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-spacing:10px;
+}
+#Tabla_1{
+  background-color: #f3d3b3;
+    border: 3px solid red;
+    border-spacing:10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+#Tabla_1 th {
+    font-size: 20px;
+    background-color: #f17d09;
+    color: #154c79;
+}
+#Tabla_1 th, #Tabla_1 td{
+    border:3pz solid #abdbe3;
+    padding:10px;
+}
+#tabla_cebras{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+#tablas cebra th{
+    background-color: #f3d3b3;
+}
+#tablas_cebras td, #tablas_cebras th{
+    padding: 10px;
+    border-width: 5px;
+    border-color: blue;
+    border-style: solid;
+}
+#tablas_cebras tbody tr:nth-child(even){
+    background-color: #f6d9bc;
+}
+#tablas_cebras tbody tr:nth-child(odd){
+    background-color: cornflowerblue; 
+}
+#tabla_hover{
+    width:70%;
+    background-color: #b7f8e1;
+    color:#3f9df0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#tabla_hover th{
+    background-color: #416fd8;
+    color:#f8d27b;
+}
+#tabla_hover td, #tabla_hover th{
+    border-width: 3px;
+    border-color: azure;
+    border-style: solid;
+    padding:20px;
+}
+#tabla_hover tr:hover{
+    background-color: yellow;
+    color:beige;
+}
+img{
+    width: 100%;
+    margin-top: 30px;
+}
+.img-border-redondo{
+    border-radius: 50%;
+}
+main section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+#img_gif{
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p{
+    margin-top: 20px;
+}
+.img_icono{
+    width: 30px;
+    margin: 0;
+}
+.img_flotante{
+    width: 30%;
+    float:left;
+    margin-top: 0;
+    margin-right: 20px
+}
+.alineacion{
+    width: 30%;
+    float:right;
+    margin: 0;
+}
+#enlace-img{
+    width: 10%;
+}
+#fondo_box{
+    background-image: url(../imagenes/nebula.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color:yellow;
+}
+.img_filter{
+    text-align: center;
+}
+.img_fiter p, .img_ filter h2{
+    text-align: justify;
+}
+.img_filter img{
+    width: 20%;
+    margin:5px
+}
+.section-filtros img{
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: royalblue;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30px;
+}
+label,legend{
+    color: snow;
+    font-weight: bold;
+    font-size: 18px;
+}
+input, textarea, select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    color: darkslateblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+textarea{
+    padding: 20px;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: palegoldenrod;
+    font-weight: bold;
+    color: midnightblue;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    display: block;   
+}
+input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,textarea:focus, select:focus{
+    background-color: burlywood;
+    color: chocolate;
+}
+Input[type=radio],input[type=checkbox]{
+    width: 20%;
+}
+#img_icono {
+    width: 10px;
+}

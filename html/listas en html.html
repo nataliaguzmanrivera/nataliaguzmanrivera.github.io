@@ -1,0 +1,196 @@
+<!--
+Facultad de Arquitectura
+Colegio de Diseño Gráfico
+Diseño de Interfaces de Usuario
+Guzman Rivera Natalia 
+-->
+<html>
+    <head>
+        <title>Listas en html</title>
+        <style type="text/css">
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            header{
+                width: 1200px;
+                height: 110px;
+                background-color: slateblue;
+                color:purple;
+                padding: 30px;
+                font-size: 32px;
+            }
+            nav{
+                width: 1260px;
+                height: 150px;
+                background-color: rebeccapurple;
+                text-align: center;
+            }
+            nav ul li{
+                list-style-type: none;
+                display:inline-block;
+                background-color: lightgray;
+                width: 15%;
+                min-width: 100px;
+                padding: 10px;
+                text-align: center;
+                border-radius: 30px;
+                margin: 5px;
+            }
+            nav ul a:link,nav ul li a:visited{
+                text-decoration: none;
+                color: blueviolet
+            }
+            nav ul li:hover{
+                background-color: mediumpurple;
+            }
+             main{
+                width: 1200px;
+                height: 1840px;
+                background-color: mediumpurple;
+                padding: 30px; 
+            }
+             footer{
+                width: 1200px;
+                height: 40px;
+                background-color:silver;
+                padding: 30px; 
+            }
+             header,nav,main,footer{
+                margin: auto;
+                margin-right: auto;
+            }
+            section{
+                width: 900px;
+                height:500px;
+                background-color: aliceblue;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                 }
+            hedaer,h1, fooder,h6{
+                text-align: center;
+            }
+            footer h6{
+                text-align: center;
+                color: blueviolet;
+            }
+            h2,h6{
+                margin-bottom: 20px;
+                color: darkslateblue;
+            }
+            p{
+                color: darkblue;
+            }
+            ul, ol{
+                color: fuchsia
+            }
+            footer{
+                text-align: center; 
+            }
+            footer a{
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>LISTAS EN HTML</h1>
+        </header>
+            <nav>
+                <ul>
+                <a href="../index.html" target="_blank"><img src="../Imagenes/hogar.png" width="40px" type="imagen/png"></a>
+                <li><a href="../html/mi_primera_pagina.html">Formatos</a></li>
+                <li><a href="../html/listas%20en%20html.html">Listas</a></li>
+                <li><a href="../html/08Guzman%20Rivera%20Natalia_Enlaces.html">Enlaces</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/Tablas.html">Tablas</a></li>
+                <li><a href="../html/audio.html">Aduios</a></li>
+                <li><a href="../html/video.html">Videos</a></li>
+                <li><a href="../html/formulario.html">Formularios</a></li>
+            </ul>
+            </nav>
+            <main>
+                <section>
+                    <h2>Listas ordenadas</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur consequat elit ac facilisis. Mauris ornare, enim at aliquet fermentum, eros sem vulputate massa, ac lacinia urna erat a erat. Etiam pellentesque pellentesque leo eu gravida. Praesent a imperdiet nibh. Nulla convallis tempus orci eu dictum. Mauris molestie ante at diam hendrerit, et venenatis libero fringilla. Proin id luctus ipsum. Aenean faucibus tincidunt mi quis faucibus. Nunc cursus dui vel pharetra dapibus. Cras id rhoncus leo. Nam non augue posuere, dignissim dui sed, euismod quam. Sed vel tortor vitae lectus semper ornare nec id ipsum.</p>
+                    <ol>
+                        <li>Colombia</li>
+                        <li>Bolivia</li>
+                        <li>Dinamarca</li>
+                        <li>Francia</li>
+                        <li>Italia</li>
+                        <li>Lituania</li>
+                        <li>Mexico</li>
+                        <li>paraguaya</li>
+                        <li>España</li>
+                        <li>Estados Unidos</li>
+                    </ol>
+                </section>
+                <section>
+                    <h2>Listas desordenadas</h2>
+                    <p>Sed bibendum malesuada quam, venenatis rhoncus sapien commodo ac. Ut eu mollis est, a placerat erat. Proin sed fermentum nibh. Phasellus pulvinar erat lacus, et dignissim sem euismod vitae. Suspendisse molestie tristique ex, eu sagittis dui tempus dapibus. Quisque varius dignissim augue. Ut vitae dolor eu urna lobortis finibus. Sed consequat volutpat turpis, quis ultricies odio eleifend quis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In et leo at nisi maximus consectetur.</p>
+                    <ul>
+                        <li>Aguas calientes</li>
+                        <li>Oaxaca</li>
+                        <li>Michoacan</li>
+                        <li>Jalisco</li>
+                        <li>Puebla</li>
+                        <li>Veracruz</li>
+                        <li>Queretaro</li>
+                        <li>Quintana Roo</li>
+                        <li>Colima</li>
+                        <li>San Luis potosi</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Listas mixtas</h2>
+                    <p>Fusce ut imperdiet ligula. Phasellus imperdiet ultrices dolor, eget convallis quam pretium ac. Duis facilisis, augue sit amet placerat feugiat, odio augue dignissim nisl, sed iaculis nisl enim dictum risus. Etiam id augue lorem. Donec lectus sapien, consectetur et justo quis, tincidunt convallis justo. Curabitur congue tellus et eleifend viverra.</p>
+                    <ol>
+                        <li>Atlixco</li>
+                        <li>Cholula
+                            <ul>
+                                <li>San cristobal Tulancingo</li>
+                                <li>Las calandrias</li>
+                                <li>Momoxpan</li>
+                                <li>El pilar</li>
+                                <li>Zerezontla</li>
+                            </ul>
+                        </li>
+                        <li>Chignahuapan</li>
+                        <li>Puebla
+                            <ul>
+                                <li>San manuel</li>
+                                <li>Amalucan</li>
+                                <li>San Ramon</li>
+                                <li>Mexico 68</li>
+                                <li>El carmen</li>
+                                <li>La paz</li>
+                            </ul>
+                        </li>
+                        <li>Zacatlan</li>
+                        <li>Izucar de matamoros</li>
+                        <li>Acajete</li>
+                        <li>Amozoc 
+                            <ul>
+                                <li>Paso del arroyo</li>
+                                <li>La loma</li>
+                                <li>El pozo</li>
+                            </ul>
+                        </li>
+                        <li>Tehuacan</li>
+                        <li>Tecamachalco</li>
+                    </ol>
+                </section>
+            </main>
+        <footer>
+            <h6>Elaborado por Natalia Guzman Rivera</h6>
+              <a href="https://www.instagram.com/naguri_14/" target="new"><img src="../Imagenes/instagram.png" width="30px"></a>
+            <a href= "" target="new"><img src="../Imagenes/facebook.png" width="30px"></a>
+            <a href="https://www.youtube.com/@nataliaguzman3481" target="new"><img src="../Imagenes/youtube.png" width="30px"></a>
+        </footer>
+    </body>
+</html>
